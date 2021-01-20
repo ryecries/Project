@@ -17,7 +17,7 @@ Libraries dan Tools project:
      - mermaid diagram
      - GitHub Pull Requests and Issues
 ## Desain
-To view the diagrams below install mermaid-diagram plugin at
+Untuk melihat diagram, install plugin mermaid-diagram di https://github.com/Redisrupt/mermaid-diagrams
 ### Class Diagram
 
 ```mermaid
