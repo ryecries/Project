@@ -24,7 +24,6 @@ To view the diagrams below install mermaid-diagram plugin at
 classDiagram
     AccountHolder <|-- IndividualHolder
     AccountHolder <|-- CorporateHolder
-    AccountHolder "1"--o"*" Account : has
 
     class AccountHolder{
     <<abstract>>
@@ -49,7 +48,6 @@ classDiagram
 erDiagram
           ACCOUNTHOLDER ||..|| INDIVIDUAL-HOLDER : is
           ACCOUNTHOLDER ||--|| CORPORATE-HOLDER : is
-          ACCOUNTHOLDER ||--|{ ACCOUNT: "has"
           ACCOUNTHOLDER {
             int id
             string name
