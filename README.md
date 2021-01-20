@@ -1,27 +1,21 @@
 # Nama Anggota
-> M. Irfan Ardiansyah - 1917051034, 
-> Gladie Thoriqudin - 1917051047, 
-> Muhammad Weidz Alqurni - 1957051012
-
-
-
+- M. Irfan Ardiansyah - 1917051034, 
+- Gladie Thoriqudin - 1917051047, 
+- Muhammad Weidz Alqurni - 1957051012
 
 # Account Holder System
-> Sistem dapat digunakan untuk transaksi perekaman data pemegang akun di bank, dimana terdapat 2 jenis akun yaitu individual dan corporate.
-> Setiap pemegang akun dapat memiliki 1 atau lebih akun.
+> Sistem ini dapat melakukan perekaman data yang menyimpan data dari murid (individual holder) dan (guru corporate holder).
 
-Libraries and Tools of this project:
-- mysql-connector-java-5.1.xx.jar
-- sqlite-jdbc-3.xx.jar
-- scene builder
-- sqlite studio
-- mysql server (xampp recomended)
-- neatbean editor
-- VS Code installed plugin
--   Markdown All in one
--   Markdown preview
--   live server
-
+Libraries dan Tools project:
+- mysql-connector-java-5.1.49.jar
+- sqlite-jdbc-3.340.jar
+- Scene builder
+- Sqlite studio
+- MySQL server with xampp
+- Netbeans editor
+- VS code plugin
+     - mermaid diagram
+     - GitHub Pull Requests and Issues
 ## Desain
 To view the diagrams below install mermaid-diagram plugin at
 ### Class Diagram
