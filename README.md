@@ -67,7 +67,6 @@ erDiagram
 classDiagram
     AccountHolder <|-- IndividualHolder
     AccountHolder <|-- CorporateHolder
-    AccountHolder "1"--o"*" Account : has
     AccountHolder o-- AccountHolderDataModel : Data Modeling
     AccountHolderDataModel <-- AccountHolderController : Data Control
     AccountHolderDataModel --> DBHelper : DB Connection
