@@ -1,3 +1,11 @@
+#
+> M. Irfan Ardiansyah 1917051034
+> Gladie Thoriqudin 1917051047
+> Muhammad Weidz Alqurni 1957051012
+
+
+
+
 # Account Holder System
 > Sistem dapat digunakan untuk transaksi perekaman data pemegang akun di bank, dimana terdapat 2 jenis akun yaitu individual dan corporate.
 > Setiap pemegang akun dapat memiliki 1 atau lebih akun.
