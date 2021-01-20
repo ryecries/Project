@@ -31,22 +31,15 @@ classDiagram
     #int ID
     #String name
     #String address
-    +int nextID()
+    #String email
     }
     class IndividualHolder{
-     -String gender
-     -String birthdate
+     -String jenjang
     }
     class CorporateHolder{
-     -String contact
+     -String pangkat
     }
-    class Account{
-     -int accNumber
-     -double balance
-     +deposite(double amt)
-     +withdraw(double amt)
-     +double getBalance()
-    }   
+    
 
 ```
 
@@ -61,18 +54,15 @@ erDiagram
             int id
             string name
             string adress
+            string email
           }
           INDIVIDUAL-HOLDER{
-            string gender
-            string birthdate
+            string jenjang
           }
           CORPORATE-HOLDER{
-            string contact
+            string pangkat
           }
-          ACCOUNT{
-            int acc_number
-            double balance
-          }
+
 ```
 ### Design Class Diagram for JavaFX and Database
 ```mermaid
@@ -90,24 +80,17 @@ classDiagram
       #IntegerProperty ID
       #StringProperty name
       #StringProperty address
-      #IntegerProperty numAccounts
+      #String email
       
-      +IntegerProperty nextID()
     }
     
     class IndividualHolder{
-      -StringProperty gender
-      -StringProperty birthdate
+      -StringProperty jenjang
     }
     class CorporateHolder{
-      -StringProperty contact
+      -StringProperty pangkat
     }
-    class Account{
-      -DoubleProperty balance
-      +deposite(double amt)
-      +withdraw(double amt)
-      +double getBalance()
-    }
+
 
     class AccountHolderDataModel{
         Connection conn
@@ -115,8 +98,6 @@ classDiagram
         addAccount()
         getIndividualHolders()
         getCorporateHolders()
-        nextAccountHolderID()
-        nextAccountNumber()
     }
 
     class AccountHolderController{
