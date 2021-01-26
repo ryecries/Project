@@ -1,8 +1,8 @@
 # Nama Anggota
 - M. Irfan Ardiansyah - 1917051034 
-     -membuat codingan program
-     -membuat desain mysql
-     -membuat koneksi dengan mysql
+     - membuat codingan program
+     - membuat desain mysql
+     - membuat koneksi dengan mysql
      
 - Gladie Thoriqudin - 1917051047
 - Muhammad Weidz Alqurni - 1957051012
