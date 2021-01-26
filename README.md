@@ -1,5 +1,5 @@
 # Nama Anggota
-- M. Irfan Ardiansyah - 1917051034 
+- Muhammad Irfan Ardiansyah - 1917051034 
      - membuat codingan program
      - membuat desain mysql
      - membuat koneksi dengan mysql
