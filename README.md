@@ -35,6 +35,7 @@ Untuk melihat diagram, install plugin mermaid-diagram di https://github.com/Redi
 classDiagram
     AccountHolder <|-- IndividualHolder
     AccountHolder <|-- CorporateHolder
+     AccountHolder "1"--o"*" Class : has
 
     class AccountHolder{
     <<abstract>>
@@ -49,6 +50,11 @@ classDiagram
     class CorporateHolder{
      -String pangkat
     }
+    class Class{
+      -int idClass
+      -String classname
+      -String tutor
+    }
     
 
 ```
@@ -59,6 +65,7 @@ classDiagram
 erDiagram
           ACCOUNTHOLDER ||..|| INDIVIDUAL-HOLDER : is
           ACCOUNTHOLDER ||--|| CORPORATE-HOLDER : is
+          ACCOUNTHOLDER ||--|{ CLASS: "has"
           ACCOUNTHOLDER {
             int id
             string name
@@ -71,6 +78,11 @@ erDiagram
           CORPORATE-HOLDER{
             string pangkat
           }
+           CLASS{
+            int id_class
+            string classname
+            string tutor
+          }
 
 ```
 ### Design Class Diagram for JavaFX and Database
@@ -79,6 +91,7 @@ classDiagram
     AccountHolder <|-- IndividualHolder
     AccountHolder <|-- CorporateHolder
     AccountHolder o-- AccountHolderDataModel : Data Modeling
+    AccountHolder "1"--o"*" Class : has
     AccountHolderDataModel <-- AccountHolderController : Data Control
     AccountHolderDataModel --> DBHelper : DB Connection
     AccountHolderController <.. AccountHolderForm : Form Control      
@@ -98,6 +111,12 @@ classDiagram
     class CorporateHolder{
       -StringProperty pangkat
     }
+    class Class{
+      -IntegerProperty idClass
+      -StringProperty tutor
+      -StringProperty classname
+    }
+
 
 
     class AccountHolderDataModel{
