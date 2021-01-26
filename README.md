@@ -1,6 +1,6 @@
 # Nama Anggota
-- M. Irfan Ardiansyah - 1917051034, 
-- Gladie Thoriqudin - 1917051047, 
+- M. Irfan Ardiansyah - 1917051034
+- Gladie Thoriqudin - 1917051047
 - Muhammad Weidz Alqurni - 1957051012
 
 # Account Holder System
