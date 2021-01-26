@@ -1,9 +1,8 @@
 # Nama Anggota
-- M. Irfan Ardiansyah - 1917051034
+- M. Irfan Ardiansyah - 1917051034 
 - Gladie Thoriqudin - 1917051047
 - Muhammad Weidz Alqurni - 1957051012
 
-# Account Holder System
 > Sistem ini dapat melakukan perekaman data yang menyimpan data dari murid (individual holder) dan (guru corporate holder).
 
 Libraries dan Tools project:
