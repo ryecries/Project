@@ -1,11 +1,19 @@
 # Nama Anggota
 - Muhammad Irfan Ardiansyah - 1917051034 
-     - membuat codingan program
-     - membuat desain mysql
-     - membuat koneksi dengan mysql
+     - Membuat codingan program
+     - Membuat desain mysql dan sqlite
+     - Membuat koneksi dengan mysql dan sqlite
      
 - Gladie Thoriqudin - 1917051047
+     - Membuat desain gui
+     - Membuat interaksi dengan controler program
+     - Implementasi tabel output databse fxml
+     
 - Muhammad Weidz Alqurni - 1957051012
+     - Membuat class diagram
+     - Membuat ER diagram
+     - Membuat desain class diagram untuk javaFX dan database
+
 
 > Sistem ini dapat melakukan perekaman data yang menyimpan data dari murid (individual holder) dan guru (corporate holder) dalam sebuah kelas online.
 
