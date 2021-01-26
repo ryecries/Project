@@ -5,10 +5,6 @@
  */
 package id.UAS.oop;
 
-import id.UAS.oop.db.DBHelper;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,13 +13,13 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author AR
+ * @author ACER
  */
 public class Main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("AccHoldForm.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("AccHolderForm.fxml"));
         
         Scene scene = new Scene(root);
         
@@ -35,6 +31,7 @@ public class Main extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-                launch(args);
+        launch(args);
     }
+    
 }

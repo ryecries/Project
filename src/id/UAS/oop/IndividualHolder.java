@@ -13,8 +13,8 @@ import javafx.beans.property.StringProperty;
  * @author AR
  */
 public class IndividualHolder extends AccountHolder{
-    private StringProperty jenjang;
-
+    public StringProperty jenjang;
+    
     public IndividualHolder(Integer holderID, String name, String address, String email,
             String jenjang) {
         super(holderID, name, address, email);

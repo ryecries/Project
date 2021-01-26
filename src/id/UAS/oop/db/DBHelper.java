@@ -18,9 +18,9 @@ import java.util.logging.Logger;
 public class DBHelper {
     private static final String USER = "root";
     private static final String PASSWORD = "";
-    private static final String DB = "acchold";
+    private static final String DB = "accholder";
     private static final String MYCONN = "jdbc:mysql://localhost/"+DB;
-    private static final String SQCONN = "jdbc:sqlite:C:\\Users\\AR\\Desktop\\UAS PBO\\SQLiteStudio\\AccHold.sqlite";
+    private static final String SQCONN = "jdbc:sqlite:D:\\MATERI\\Pemrograman Berorientasi Objek\\Tugas\\Jan 20 UAS\\SQLite\\AccHolder.sqlite";
     
     public static Connection getConnection(String driver) throws SQLException{
         Connection conn = null;

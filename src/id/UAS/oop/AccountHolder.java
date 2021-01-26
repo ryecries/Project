@@ -5,6 +5,7 @@
  */
 package id.UAS.oop;
 
+import java.util.ArrayList;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -66,6 +67,9 @@ public abstract class AccountHolder {
     }
     public StringProperty addressProperty(){
         return address;
+    }
+    public StringProperty emailProperty(){
+        return email;
     }
 }
 

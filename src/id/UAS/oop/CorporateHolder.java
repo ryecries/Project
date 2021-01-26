@@ -14,7 +14,7 @@ import javafx.beans.property.StringProperty;
  */
 public class CorporateHolder extends AccountHolder {
     StringProperty pangkat;
-
+    
     public CorporateHolder(Integer holderID, String name, String address, String email, 
             String pangkat) {
         super(holderID, name, address, email);
