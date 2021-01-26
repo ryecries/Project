@@ -2,16 +2,19 @@
 <jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Project.jnlp">
   <information>
     <title>Project</title>
-    <vendor>AR</vendor>
+    <vendor>ACER</vendor>
     <description>null</description>
     <offline-allowed/>
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Project.jar" size="7816" download="eager" />
+    <jar href="Project.jar" size="14331" download="eager" />
     <jar href="lib\mysql-connector-java-5.1.49.jar" size="1006904" download="eager" />
     <jar href="lib\sqlite-jdbc-3.34.0.jar" size="7296329" download="eager" />
   </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Project" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
   <jfx:javafx-desc  width="800" height="600" main-class="id.UAS.oop.Main"  name="Project" />
   <update check="always"/>
 </jnlp>
