@@ -3,7 +3,7 @@
 - Gladie Thoriqudin - 1917051047
 - Muhammad Weidz Alqurni - 1957051012
 
-> Sistem ini dapat melakukan perekaman data yang menyimpan data dari murid (individual holder) dan (guru corporate holder).
+> Sistem ini dapat melakukan perekaman data yang menyimpan data dari murid (individual holder) dan guru (corporate holder) dalam sebuah kelas online.
 
 Libraries dan Tools project:
 - mysql-connector-java-5.1.49.jar
